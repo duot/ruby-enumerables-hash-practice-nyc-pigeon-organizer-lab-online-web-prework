@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  new_pig = Hash.new
+  new_pig = {}
 
   data.each_pair do |general_attr, gval|
     gval.each_pair do |specific_attr, names|
